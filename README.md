@@ -45,7 +45,7 @@ These instructions will help you set up and run the project on your local machin
 3. Start the Expo development server:
 
    ```sh
-   expo start
+   npx expo start
    ```
 
 4. Open the project in Expo Go:
