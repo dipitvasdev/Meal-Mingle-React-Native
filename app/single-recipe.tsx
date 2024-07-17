@@ -88,7 +88,7 @@ export default function SingleRecipe() {
           darkColor="white"
           style={styles.timeText}
         >
-          {recipeData.timeToCook} min
+          {recipeData.timeToCook}min
         </ThemedText>
         <ThemedText lightColor="black" darkColor="white" style={styles.title}>
           {recipeData.title}
@@ -180,7 +180,7 @@ const getStyles = (colorScheme: ColorSchemeName, recipeData: RecipeProps) =>
       backgroundColor: colorScheme === "dark" ? "#b45309" : "#fbbf24",
     },
     title: {
-      fontSize: screenWidth * 0.06,
+      fontSize: screenWidth * 0.05,
       fontWeight: "bold",
       flex: 2,
       textAlign: "center",
